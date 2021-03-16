@@ -40,7 +40,7 @@ npm run serve
  
  You can make registration at : http://localhost:8080/register or login in at http://localhost:8080/login
  
- Than you can you can enjoy Admin Panel
+ Than you enjoy Admin Panel
 
 
 
