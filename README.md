@@ -9,7 +9,7 @@
 - Full CRUD actions
 
 ## Technologies
-- [VUE.JS] - HTML enhanced for web apps!
+- [VUE.JS] - Vue.js - open source JavaScript framework
 - [VUTIFY] - a framework for creating rich and interesting web applications using the specification Material Design.
 - [FIREBASE] - a NoSQL- class cloud database that allows application developers to store and synchronize data between multiple clients.
 - [VUEX] - library for applications on Vue.js
