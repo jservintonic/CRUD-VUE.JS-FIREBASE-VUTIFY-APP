@@ -38,7 +38,7 @@
 
                    <v-text-field
                     v-model="phone"
-                    :rules="fieldRules"
+                    :rules="phoneRules"
                     label="Phone"
                     required
                     outlined
@@ -47,7 +47,7 @@
                 
                    <v-textarea
                     v-model="description"
-                    :rules="phoneRules"
+                    :rules="textRules"
                     label="Description"
                     required
                     outlined
@@ -124,12 +124,15 @@ export default {
             ],
              phoneRules: [
                 v => !!v || 'Phone is required',
-                v => /\+7\(\d{3}\)\d{3}-\d{2}-\d{2}/.test(v) || 'Phone must be valid'
+              
             ],
             
             emailRules: [
                 v => /.+@.+/.test(v) || 'Email must be valid'
                 ],
+            textRules: [
+                v=> !!v || 'This field is required'
+            ],
             
             oldImage: '',
         

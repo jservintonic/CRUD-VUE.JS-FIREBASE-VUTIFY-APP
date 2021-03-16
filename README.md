@@ -37,6 +37,10 @@ npm run serve
 
  App running at:
  http://localhost:8080
+ 
+ You can make registration at : http://localhost:8080/register or login in at http://localhost:8080/login
+ 
+ Than you can then you can enjoy Admin Panel
 
 
 
